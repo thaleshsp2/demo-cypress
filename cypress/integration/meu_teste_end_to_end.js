@@ -33,7 +33,7 @@ describe('Teste End-to-End', () => {
          })
          cy.get('.swal-text').contains('Sua compra foi realizada com sucesso')
  
-         // Fecha o pop-up com o preço do frete
+         // Fecha o pop-up da compra
          cy.get('.swal-button').click()
     })
 })
